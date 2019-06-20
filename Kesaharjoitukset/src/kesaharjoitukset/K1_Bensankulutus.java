@@ -1,3 +1,4 @@
+//jarikol
 package kesaharjoitukset;
 
 import java.util.Scanner;

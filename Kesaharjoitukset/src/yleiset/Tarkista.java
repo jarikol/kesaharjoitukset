@@ -1,3 +1,4 @@
+//jarikol
 package yleiset;
 
 public abstract class Tarkista {
