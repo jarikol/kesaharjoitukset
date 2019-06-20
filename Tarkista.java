@@ -1,5 +1,5 @@
 package yleiset;
-
+//TESTI
 public abstract class Tarkista {
 	private static char DECIM = '.'; // Please set your preferred decimal separator here. Use '.' if using Java native notation
 	
