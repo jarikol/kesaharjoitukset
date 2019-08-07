@@ -2,7 +2,11 @@ package kesaharjoitukset;
 
 public class K4_Karpanen {
 	public static void main(String[] args) {
-		
+		Karpanen k = new Karpanen();
+		k.suhise();
+		k.lenna();
+		k.syo("keitto");
+		k.syo("juusto");
 	}
 
 }
