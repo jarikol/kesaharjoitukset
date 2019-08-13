@@ -110,11 +110,12 @@ class TilastoBean {
 			doublejono[i] = Double.parseDouble(jono[i]);
 		}
 		//Tässä lasketaan hajontojen summa luupilla, joka lisää aina seuraavan alkion etäisyyden keskiarvosta korotettuna
-		//toiseen potenssiin summa-nimiseen muuttujaan. 
-		//											        n
-		// Siis 										SUMMA[(x(i)-keskiarvo)^2]
-		//												  i=1
-		//                 Tässä x(i) on siis 1. arvo x(1), 2. arvo x(2) ... x(n).
+		//toiseen potenssiin summa-nimiseen  		  ______________________________
+		//muuttujaan.								 |       n						|
+		// Siis 									 |	SUMMA[(x(i)-keskiarvo)^2]	|
+		//											 |	  i=1						|
+		//											 |______________________________|
+		//                                           Tässä x(i) on siis: 1. arvo x(1), 2. arvo x(2) ... x(n).	
 		for (int i = 0; i<doublejono.length;i++) {
 			summa = summa + Math.pow((doublejono[i]-this.getKeskiarvo()), 2);
 		}
